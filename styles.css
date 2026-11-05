@@ -72,7 +72,7 @@ html {
 
 .container-logo h1 a {
 	text-decoration: none;
-	color: #000;
+	color: #fdfdfd;
 	font-size: 3rem;
 	text-transform: uppercase;
 	letter-spacing: -1px;
@@ -311,7 +311,7 @@ html {
 .sobre-mi {
     max-width: 700px;
     margin: 30px auto;
-    background: #e7f3f8; /* rosa muy suave */
+    background: #57595b; /* rosa muy suave */
     padding: 45px;
     border-radius: 12px;
     box-shadow: 0 4px 80px rgba(0,0,0,0.1);
@@ -319,13 +319,13 @@ html {
 }
 
 .sobre-mi h2 {
-    color: #5e5b59; /* café tierra */
+    color: #ffffff; /* café tierra */
     margin-bottom: 15px;
 }
 
 .sobre-mi p {
     font-size: 17px;
-    color: #5d4037;
+    color: #f5f4f4;
     line-height: 1.6;
 }
 .top-categories {
@@ -339,6 +339,11 @@ html {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 3rem;
+
+}
+.container top-categories h2 {
+    color: #ffffff; /* café tierra */
+    margin-bottom: 15px;
 }
 
 .card-category {
