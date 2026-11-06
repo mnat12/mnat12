@@ -21,7 +21,7 @@ html {
 /*             UTILIDADES             */
 /* ********************************** */
 .container {
-	max-width: 120rem;
+	max-width: 130rem;
 	margin: 0 auto;
 }
 
@@ -88,7 +88,7 @@ html {
 	font-size: 3rem;
 	color: var(--primary-color);
 	padding-right: 2.5rem;
-	border-right: 1px solid #b5aaaa;
+	border-right: 1px solid #4e4d4d;
 }
 
 .container-user .fa-basket-shopping {
@@ -337,8 +337,8 @@ html {
 
 .container-categories {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 3rem;
+	grid-template-columns: repeat(3, 2fr);
+	gap: 4rem;
 
 }
 .container top-categories h2 {
